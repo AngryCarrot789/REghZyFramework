@@ -10,7 +10,7 @@ namespace REghZyFramework.ADemo
         {
             /*
              * args = {
-             *     -name hhhh -age 69 -arr okay then ecks dee "no u" -efficiency 21 40
+             *     -name hhhh -age 69.3d -arr okay then ecks dee "no u" -efficiency 21 40
              * }
              */
 

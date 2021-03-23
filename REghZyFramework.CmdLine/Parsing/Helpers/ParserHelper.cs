@@ -17,7 +17,7 @@ namespace REghZyFramework.CmdLine.Parsing.Helpers
         /// <returns></returns>
         public static bool TryGetForcedNumber(string numberForced, out double value)
         {
-            string number = numberForced.Substring(0, numberForced.Length - 2);
+            string number = numberForced.Substring(0, numberForced.Length - 1);
             if (double.TryParse(number, out value))
                 return true;
             value = 0;
